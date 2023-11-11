@@ -6,24 +6,23 @@ import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import axios from 'axios'
 import moment from 'moment-timezone'
-import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
+import { es } from './lib/idiomas/total-idiomas.js'
 
 // ES ➜ Agregué primero el número del Bot como prioridad
 // ES ➜ Si desea recibir reportes debe de usar los tres parámetros (Número, nombre y true)
 // EN ➜ Add the Bot number as priority first
 // EN ➜ If you want to receive reports you must use the three parameters (Number, name and true)
-global.owner = [
-['5492266466080', '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈
-['593968585383'], ['5492266466080'], ['5217294888993'], ['5492266613038'], ['51948705559']]
+global.owner = [['51934721687', '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //Benja𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈
+['51934721687'], ['51934721687'], ['51934721687'], ['51934721687'], ['51934721687']]
 
-global.mods = [] 
-global.prems = []
+global.mods = [51934721687] 
+global.prems = [51934721687]
    
 // ES ➜ Agregue el código de idioma el cual usará GataBot  
 // EN ➜ Add the language code which GataBot will use
 //  es = Español      id = Bahasa Indonesia       ar = عرب
 //  en = English      pt = Português 
-global.lenguajeGB = es  //<-- Predeterminado en idioma Español 
+global.lenguajeGB = es //<-- Predeterminado en idioma Español 
 
 // confirmación en el ajuste de idioma y owner en la consola
 global.languageLen = "es"
@@ -81,14 +80,14 @@ global.fetch = fetch
 global.axios = axios
 global.moment = moment	
 
-global.packname = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈'
-global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
+global.packname = 'Benja𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈'
+global.author = 'Benja 𝘿𝙞𝙤𝙨'
 
 // ES ➜ Está parte es para mostrar el contacto de alguien al usar #contacto
 // EN ➜ This part is to display someone's contact using #contact
 global.official = [ 
-['51934721687', 'Gata Dios 💻', 1], 
-['5492266466080', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
+['51934721687', 'Benja Dios 💻', 1], 
+['51934721687', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
 ['59894808483', '𝗖𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 🥏', 1],
 ['5521989092076', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]] 
 
